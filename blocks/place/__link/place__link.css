@@ -1,0 +1,12 @@
+.place__link{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-self: end;
+}
+
+@media screen and (max-width: 767px){
+    .place__link{
+        padding-left: 16px;
+    }
+}
