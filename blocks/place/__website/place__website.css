@@ -1,6 +1,6 @@
 .place__website{
   font-family: Inter;
-font-style: normal;
+  font-style: normal;
   font-weight: normal;
   padding-top: 12px;
   font-size: 18px;
@@ -8,3 +8,9 @@ font-style: normal;
   text-decoration-line: underline;
   color: #FFFFFF;
 } 
+
+.place__website:hover,
+.place__website:active{
+  opacity: 0.8;
+  transition: 1s;
+}

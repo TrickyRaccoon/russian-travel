@@ -3,7 +3,6 @@
 }
 @media screen and (min-width: 1279px){   
   .place{
-    padding-top: 80px;
     grid-template-columns: 460px 1fr;
     gap: 48px 40px;
   }
@@ -11,7 +10,6 @@
   
 @media screen and (min-width: 1023px) and (max-width:1279px){
   .place{
-    padding-top: 80px;
     grid-template-columns: 440px 1fr;
     gap: 48px 32px;
   }
@@ -19,7 +17,6 @@
   
 @media screen and (min-width: 767px) and (max-width: 1023px){
   .place{
-    padding-top: 72px;
     grid-template-columns: 340px 1fr;
     gap: 48px 28px;
   }
@@ -27,7 +24,6 @@
   
 @media screen and (max-width: 767px){
   .place{
-    padding-top: 50px;
     grid-template-columns: 1fr;
     gap: 32px;
   }

@@ -6,7 +6,8 @@
   position: relative;
   isolation: isolate;
   background-image: url(../../../images/cover-trains.jpg);
-   background-color: rgba(42, 44, 47, .3);
+  background-color: rgba(42, 44, 47, .3);
+  background-position: center;
   background-blend-mode: overlay;
   background-size: cover;
   color: #fff;
@@ -18,7 +19,7 @@
 
 .cover__background:hover,
 .cover__background:active {
-  opacity: 0.5;
+  background-color: rgba(42, 44, 47, .8);
   transition: 1s;
 }
 
