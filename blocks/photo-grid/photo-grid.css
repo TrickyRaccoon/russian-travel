@@ -1,6 +1,7 @@
 .photo-grid{
   display: grid;
   font-family:“Inter”, Arial, sans-serif;
+  max-width: 1184px;
 }
 
 @media screen and (min-width: 1279px){
