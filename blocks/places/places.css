@@ -1,6 +1,7 @@
 .places{
   display: grid;
   grid-template-columns: 1fr;
+  margin:0 auto;
 }
 @media screen and (min-width: 1279px){
 

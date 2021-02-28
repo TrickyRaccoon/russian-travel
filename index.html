@@ -8,16 +8,15 @@
 </head>
 <body>
 
-  <div class="page">
+  <header class="header">
+    <img src="./images/header-logo.svg" class = "header__logo" alt="Логотип">
+    <ul class="header__lang-list">
+      <a href = "#" target="_self" class="header__lang-link header__lang-link_active">Ru</a>
+      <a href = "#" target="_self" class="header__lang-link">En</a>
+    </ul>
+  </header>
 
-    <header class="header">
-        <img src="./images/header-logo.svg" class = "header__logo" alt="Логотип">
-        <ul class="header__lang-list">
-          <a href = "#" target="_self" class="header__lang-link header__lang-link_active">Ru</a>
-          <a href = "#" target="_self" class="header__lang-link">En</a>
-        </ul>
-    </header>
-    
+  <div class="content">
     <section  class = "lead">
       <h1 class = "lead__title">Путешествия по России</h1>
       <p class = "lead__subtitle">Настоящая страна не в выпусках новостей, а здесь.</p>
@@ -127,7 +126,8 @@
         <p class="cover__subtitle">По мотивам учебной темы о Транссибе — путешествие от столицы до Байкала на электричках.</p>
       </a>
     </section>
-    <footer class="footer">
+  </div>
+  <footer class="footer">
     <nav>
       <ul class="footer__links">
         <a href="https://yandex.ru/maps" class="footer__link" target="_blank">Карты</a>
@@ -138,8 +138,8 @@
       </ul>
     </nav>
       <p class="footer__copyright">© 2021. Антон Петров</p>
-    </footer>
-  </div>
+  </footer>
+
 
 </body>
 </html>

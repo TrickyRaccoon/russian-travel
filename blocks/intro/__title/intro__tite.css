@@ -1,11 +1,11 @@
 .intro__title{
   padding-bottom: 40px;
   max-width: 720px;
-  font-family: Inter;
   font-style: normal;
   font-weight: 900;
   color: #FFFFFF;
   margin: 0;
+  font-family:Inter, Arial, sans-serif;
 }
   
 @media screen and (min-width: 767px){
