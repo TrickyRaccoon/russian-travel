@@ -4,11 +4,12 @@
   justify-content: space-between;
   margin: 0 auto;
   text-align: left;
+  max-width: 984px;
 }
  
 @media screen and (min-width: 1279px){
   .intro{
-    width: 984px;
+    width: 100%;
     padding-top: 92px;
     padding-bottom: 0px;
   }
